@@ -182,9 +182,65 @@
 
 .portfolio_products img {
     object-fit: contain;
+    transition: all 1s ease-out;
 }
 
 .portfolio_products img:hover {
     transform: scale(1.1);
     transition: all 1s ease-out;
+}
+
+/* subscribe section styles */
+.subscribe_container {
+    margin-top: 140px;
+    background-color: #ff00001f;
+    height: 616px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe_content {
+    text-align: center;
+}
+
+.subscribe_content h2 {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.subscribe_content p {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #070211;
+}
+
+.subscribe_content .subscribe_input {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe_input input {
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 10px 16px;
+    border-start-start-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 350px;
+}
+
+.subscribe_input button {
+    border: none;
+    outline: none;
+    appearance: none;
+    padding: 10px 16px;
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
