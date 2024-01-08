@@ -147,6 +147,53 @@
     margin-top: 40px;
 }
 
+/* comming soon section styles */
+
+.comming_soon_content {
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.comming_soon_content h6 {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    color: #ff0000;
+    font-weight: 400;
+}
+
+.comming_soon_content h2 {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.comming_soon_description {
+    color: #070211a9;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+
+.comming_soon_img {
+    border: 15px solid #ff0000;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.comming_soon_year_title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #ff0000;
+    margin-bottom: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.year_img {
+    margin-top: 20px;
+}
+
 /* portfolio section styles */
 
 .portfolio_container {
