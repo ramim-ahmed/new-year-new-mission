@@ -194,6 +194,46 @@
     margin-top: 20px;
 }
 
+/* holidays section styles */
+.holidays_container {
+    margin-top: 140px;
+}
+
+.holidays_content>div {
+    text-align: center;
+}
+
+.holidays_functional {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-family: 500;
+    color: #ff0000;
+}
+
+.holidays_content h1 {
+    font-size: 72px;
+    margin: 20px 0;
+}
+
+.holidays_content h1 span {
+    color: #ff0000;
+}
+
+.holidays_content>div>p {
+    padding: 0 100px;
+    font-family: "Inter", sans-serif;
+    color: #070211a9;
+    font-size: 20px;
+}
+
+.holidays_img_section {
+    margin-top: 140px;
+}
+
+.holidays_img_section img {
+    object-fit: contain;
+}
+
 /* portfolio section styles */
 
 .portfolio_container {
